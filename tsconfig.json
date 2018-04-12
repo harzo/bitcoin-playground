@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "strict": true,
+    "noImplicitAny": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "chai", "mocha"]
+  },
+  "lib": ["es2015"],
+  "include": [
+    "test/**/*.ts",
+    "**.ts"
+  ]
+}
